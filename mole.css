@@ -1,0 +1,22 @@
+#score {
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #game {
+    display: grid;
+    /* set columns to 3  */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  
+  .hole {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+  }
+  
+  .mole {
+    background-color: brown;
+  }
